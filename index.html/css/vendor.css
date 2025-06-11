@@ -1,27 +1,7 @@
-/* ===================================================================
- * Theme Third-party Stylesheets
- * Template Ver. 1.0.0
- * 02-16-2021
- * -------------------------------------------------------------------
- *
- * TOC:
- * 
- * # PrismJS 1.20.0
- * # Swiper 6.4.5
- * # Basiclightbox
- * 
- * ------------------------------------------------------------------- */
 
 
 
-/* ===================================================================
- * # PrismJS 1.20.0
- *   https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+markup-templating+php
- *   
- *   prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
- *   Based on https://github.com/chriskempson/tomorrow-theme
- *   @author Rose Pritchard
- * ------------------------------------------------------------------- */
+
 
 code[class*="language-"],
 pre[class*="language-"] {
@@ -44,7 +24,7 @@ pre[class*="language-"] {
     hyphens         : none;
 }
 
-/* Code blocks */
+
 
 pre[class*="language-"] {
     padding  : var(--vspace-0_5) 0 var(--vspace-1);
@@ -57,7 +37,7 @@ pre[class*="language-"] {
     background : #2d2d2d;
 }
 
-/* Inline code */
+
 
 :not(pre)>code[class*="language-"] {
     padding     : .1em;
@@ -141,17 +121,7 @@ pre[class*="language-"] {
 
 
 
-/* ===================================================================
- * # Swiper 6.4.5
- *   Most modern mobile touch slider and framework with hardware accelerated transitions
- *   https://swiperjs.com
- *
- *   Copyright 2014-2020 Vladimir Kharlampidi
- *
- *   Released under the MIT License
- *
- *   Released on: December 18, 2020
- * ------------------------------------------------------------------- */
+
 
 @font-face {
     font-family : "swiper-icons";
@@ -171,7 +141,7 @@ pre[class*="language-"] {
     overflow     : hidden;
     list-style   : none;
     padding      : 0;
-    /* Fix of Webkit flickering */
+    
     z-index      : 1;
 }
 
@@ -220,7 +190,7 @@ pre[class*="language-"] {
     visibility : hidden;
 }
 
-/* Auto Height */
+
 
 .swiper-container-autoheight,
 .swiper-container-autoheight .swiper-slide {
@@ -232,7 +202,7 @@ pre[class*="language-"] {
     transition-property : transform, height;
 }
 
-/* 3D Effects */
+
 
 .swiper-container-3d {
     perspective : 1200px;
@@ -277,14 +247,14 @@ pre[class*="language-"] {
     background-image : linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
-/* CSS Mode */
+
 
 .swiper-container-css-mode>.swiper-wrapper {
     overflow           : auto;
     scrollbar-width    : none;
-    /* For Firefox */
+   
     -ms-overflow-style : none;
-    /* For Internet Explorer and Edge */
+   
 }
 
 .swiper-container-css-mode>.swiper-wrapper::-webkit-scrollbar {
@@ -305,9 +275,7 @@ pre[class*="language-"] {
 
 :root {
     --swiper-navigation-size   : 44px;
-    /*
-    --swiper-navigation-color  : var(--swiper-theme-color);
-    */
+    
 }
 
 .swiper-button-prev,
@@ -380,9 +348,7 @@ pre[class*="language-"] {
 }
 
 :root {
-    /*
-    --swiper-pagination-color: var(--swiper-theme-color);
-    */
+    
 }
 
 .swiper-pagination {
@@ -397,7 +363,7 @@ pre[class*="language-"] {
     opacity : 0;
 }
 
-/* Common Styles */
+
 
 .swiper-pagination-fraction,
 .swiper-pagination-custom,
@@ -407,7 +373,7 @@ pre[class*="language-"] {
     width  : 100%;
 }
 
-/* Bullets */
+
 
 .swiper-pagination-bullets-dynamic {
     overflow  : hidden;
@@ -627,12 +593,10 @@ button.swiper-pagination-bullet {
     cursor : move;
 }
 
-/* Preloader */
+
 
 :root {
-    /*
-    --swiper-preloader-color: var(--swiper-theme-color);
-    */
+    
 }
 
 .swiper-lazy-preloader {
@@ -666,7 +630,7 @@ button.swiper-pagination-bullet {
     }
 }
 
-/* a11y */
+
 
 .swiper-container .swiper-notification {
     position       : absolute;
@@ -784,11 +748,6 @@ button.swiper-pagination-bullet {
 
 
 
-/* ===================================================================
- * # Basiclightbox
- *
- *
- * ------------------------------------------------------------------- */
 
 .basicLightbox {
     position        : fixed;
